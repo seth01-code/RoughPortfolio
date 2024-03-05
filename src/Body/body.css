@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.circle{
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 8rem;
+    top: 1rem;
+    z-index: -100000;
+}
+
+a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.body-container{
+    width: 90%;
+    height: 42.5rem;
+    background-color: #eeecec;
+    margin: 2rem 4rem;
+    box-shadow: 0 0 12px 1px #0000004e;
+}
+
+.circle1{
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 4px solid #5fe3f5;
+    border-radius: 50%;
+    position: absolute;
+    top: 8rem;
+    right: 25rem;
+}
+
+.circle2{
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: transparent;
+    border: 4px solid orangered;
+    border-radius: 50%;
+    position: absolute;
+    right: -13px;
+    top: -7px;
+
+}
+
+.circle3{
+    width: 2rem;
+    height: 2rem;
+    background-color: #17bce1;
+    border-radius: 50%;
+    position: absolute;
+    right: 18rem;
+    top: 13rem;
+}
+
+.Me-Area{
+    margin:10rem 7rem;
+       
+      
+}
+
+.Me-Area h2{
+    font-family: "Times New Roman", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 2rem;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.Me-Area span{
+    color: orangered;
+}
+
+.image{
+    width: 80%;
+    position: absolute;
+    top: 4.5rem;
+    left: 19rem;
+    overflow: hidden;
+}
+
+.image img{
+    width: 70%;
+    height: 40rem;
+    object-fit: cover;
+}
+
+.hire{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 5px 3px 5px 10px;
+    background-color: orangered;
+    border-radius: .5rem;
+    border: 0;
+    font-family: "Open Sans";
+    font-weight: bolder;
+}
+
+.arrow{
+    background-color: rgba(255, 255, 255, 0.492);
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .3rem;
+    font-size: 1.5rem;
+}
+
+.cv-section{
+    position: absolute;
+    top: 18rem;
+    right: 7rem;
+}
+
+small{
+    border-bottom: 1px solid orangered;
+}
+
+.chat{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    right:10rem ;
+    bottom: 0;
+}
+
+.chat p{
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.chatting{
+    margin-top: 1.8rem;
+}
+
+.chat-icon p{
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.chat-icon div{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #59ff2f;
+    position: absolute;
+    border: 2px solid black;
+    top: 1.6rem;
+    right: -3px
+}

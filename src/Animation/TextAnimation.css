@@ -1,0 +1,20 @@
+.wrapper{
+    font-size: 2rem;
+    display: inline-block;
+    opacity: 0;
+    animation-name: animation;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-iteration-count: infinite;
+    margin-bottom: 2rem;
+}
+
+
+
+@keyframes animation {
+    0% {opacity: 0; transform: translateX(-100px) ; filter: blur(10px); }
+    25% {opacity: 1;transform: translateX(0px) ; filter: blur(0px);}
+    75% {opacity: 1;transform: translateX(0px) ; filter: blur(0px);}
+    100% {opacity : 0; transform: translateX(-100px); filter: blur(10px);}
+}
